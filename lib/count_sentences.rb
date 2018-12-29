@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences()
+    new_arr = []
     new_arr = count_sentences.split(".")
     binding.pry
     
