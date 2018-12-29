@@ -18,6 +18,7 @@ class String
     new_arr = []
     new_arr = count_sentences.split(".")
     binding.pry
+    #binding.pry
     
   end
   
