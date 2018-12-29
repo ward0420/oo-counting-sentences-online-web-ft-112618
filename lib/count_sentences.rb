@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     
-    new arr = []
+    new_arr = []
     
     each do |sentence|
     
