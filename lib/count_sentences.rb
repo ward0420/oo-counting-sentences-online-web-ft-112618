@@ -29,8 +29,7 @@ class String
       end
     end
     
-    new_arr
-    binding.pry
+    new_arr.length
     
   end
   
