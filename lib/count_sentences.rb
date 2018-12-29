@@ -14,12 +14,22 @@ class String
     end_with?("!")
   end
 
-  def count_sentences()
-    new_arr = []
-    #binding.pry
-    new_arr << count_sentences.split(".")
-    binding.pry
-    #binding.pry
+  def count_sentences
+    
+    new arr = []
+    
+    each do |sentence|
+    
+    if sentence? == true
+      new_arr << sentence
+    elsif question? == true
+      new_arr << sentence
+    elsif exclamation? == true
+      new_arr << sentence
+    
+    
+    end
+
     
   end
   
