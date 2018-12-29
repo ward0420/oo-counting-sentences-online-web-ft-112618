@@ -20,12 +20,13 @@ class String
     
     each do |sentence|
     
-    if sentence? == true
-      new_arr << sentence
-    elsif question? == true
-      new_arr << sentence
-    elsif exclamation? == true
-      new_arr << sentence
+      if sentence? == true
+        new_arr << sentence
+      elsif question? == true
+        new_arr << sentence
+      elsif exclamation? == true
+        new_arr << sentence
+      end
     end
     
     new_arr
