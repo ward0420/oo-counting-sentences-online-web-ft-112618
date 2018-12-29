@@ -30,7 +30,7 @@ class String
     end
     
     new_arr
-
+    binding.pry
     
   end
   
