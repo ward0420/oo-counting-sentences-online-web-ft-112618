@@ -26,9 +26,9 @@ class String
       new_arr << sentence
     elsif exclamation? == true
       new_arr << sentence
-    
-    
     end
+    
+    new_arr
 
     
   end
