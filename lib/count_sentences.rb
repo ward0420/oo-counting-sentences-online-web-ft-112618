@@ -12,11 +12,12 @@ class String
 
   def exclamation?
     end_with?("!")
+    binding.pry
   end
 
   def count_sentences()
     .end_with?(".")
-    binding.pry
+    #binding.pry
     #binding.pry
 
   end
